@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">day03_3</string>
+    <string name="userId">ID</string>
+    <string name="userPw">PASSWORD</string>
+    <string name="login">LOGIN</string>
+</resources>

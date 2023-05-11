@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingTop="20dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="20dp"
+    tools:context=".DiaryFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/diary_list_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:backgroundTint="#707070"
+            android:text="목록보기"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/diary_photo_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginLeft="3dp"
+            android:layout_weight="1"
+            android:backgroundTint="#FF9800"
+            android:text="사진촬영"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/diary_subject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/input_border"
+        android:ems="10"
+        android:hint="일기 제목 입력..."
+        android:inputType="text"
+        android:padding="10dp"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/diary_photo"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/input_border"
+        tools:src="@tools:sample/backgrounds/scenic" />
+
+    <EditText
+        android:id="@+id/diary_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/input_border"
+        android:ems="10"
+        android:gravity="top"
+        android:hint="일기 내용 입력..."
+        android:inputType="textMultiLine|text"
+        android:padding="10dp"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/diary_write_btn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:backgroundTint="#000000"
+        android:text="작성하기"
+        android:textSize="24sp" />
+</LinearLayout>

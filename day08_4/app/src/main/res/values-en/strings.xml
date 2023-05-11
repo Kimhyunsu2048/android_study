@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">day08_4</string>
+    <!-- 상단 메뉴 -->
+    <string name="menu_camera">CAMERA</string>
+    <string name="menu_diary">DIARY</string>
+    <string name="menu_cs">C/S</string>
+
+    <!-- 하단 메뉴 -->
+    <string name="menu_main">MAIN</string>
+    <string name="menu_join">JOIN</string>
+    <string name="menu_login">LOGIN</string>
+
+    <!-- 회원 가입 -->
+    <string name="user_join">JOIN MEMBER</string>
+    <string name="userId">USER ID</string>
+    <string name="userPw">PASSWORD</string>
+    <string name="userPwRe">CONFIRM PASSWORD</string>
+    <string name="userNm">USERNAME</string>
+    <string name="join_btn">JOIN</string>
+
+    <!-- 로그인 -->
+    <string name="user_login">LOGIN MEMBER</string>
+    <string name="login_btn">LOGIN</string>
+
+</resources>

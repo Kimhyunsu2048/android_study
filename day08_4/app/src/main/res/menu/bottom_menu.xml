@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/tab_main"
+        android:title="@string/menu_main"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:enabled="true" />
+    <item
+        android:id="@+id/tab_join"
+        android:title="@string/menu_join"
+        android:icon="@android:drawable/ic_menu_add"
+        android:enabled="true" />
+
+    <item
+        android:id="@+id/tab_login"
+        android:title="@string/menu_login"
+        android:icon="@android:drawable/ic_lock_lock"
+        android:enabled="true" />
+
+    <item
+        android:id="@+id/tab_menu"
+        android:title="메뉴"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:enabled="true" />
+</menu>
